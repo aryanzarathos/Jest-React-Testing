@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches-snapshot 1`] = `
+<td>
+  <tr
+    data-testid="todo-1"
+  >
+    1
+  </tr>
+  <tr
+    data-testid="todo-2"
+  >
+    first Todo
+  </tr>
+  <tr
+    data-testid="todo-3"
+  />
+</td>
+`;

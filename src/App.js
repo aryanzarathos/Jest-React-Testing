@@ -1,7 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Todo from './componets/Todo.js';
 
 function App() {
+  let data=[
+    {
+      name:"first Todo",
+      id:1,
+      completed:false
+      
+    }
+  ]
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +26,7 @@ function App() {
         >
           Learn React
         </a>
+        <Todo data={data}/>
       </header>
     </div>
   );
